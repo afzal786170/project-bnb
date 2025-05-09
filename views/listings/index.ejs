@@ -30,39 +30,7 @@
   display: flex;
   align-items: center;
  }
-
-
-
- .birthday-banner {
-  background: linear-gradient(90deg, #ff6a00, #ee0979);
-  color: #fff;
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0 20px rgba(255, 105, 180, 0.5);
-  animation: glow 2s infinite alternate;
-  margin: 20px auto;
-  width: 90%;
-}
-
-.birthday-banner .date {
-  font-size: 1.2rem;
-  font-weight: normal;
-  margin-left: 10px;
-}
-
-@keyframes glow {
-  from {
-    box-shadow: 0 0 10px #ff9a9e;
-  }
-  to {
-    box-shadow: 0 0 30px #ff6a00;
-  }
-}
-
-  </style>
+</style>
 <div id="filters"  data-toggle="collapse">
   <div class="filter">
    <div> <i class="fa-solid fa-fire"></i></div>
@@ -120,9 +88,7 @@
    </div>
 </div>
 
-<div class="birthday-banner">
-  🎉 Happy Birthday Bushra! 🎂 <span class="date">(8th May)</span>
-</div>
+
 
 <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 mt-3">
   <% for (let listing of allListings) { %>
